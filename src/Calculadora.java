@@ -53,7 +53,7 @@ public class Calculadora {
         Calculadora calculadora = new Calculadora(valor1, valor2);
         // Se crea el atributo resultado
         double resultado;
-        // Se realiza la operación seleccionada segun el case
+        // Se realiza la operación seleccionada utilizando el metodo switch case
         switch (opcion) {
             case 1:
                 resultado = calculadora.sumar();
